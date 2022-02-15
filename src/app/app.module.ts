@@ -9,16 +9,15 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material-module';
 
-//UPDATE firebase config HERE
 const firebaseConfig = {
-  apiKey: "AIzaSyAa_45DztHO0cemyoECFbBe_Bm_WGS6vV0",
-  authDomain: "stube-2d651.firebaseapp.com",
-  databaseURL: 'https://stube-2d651-default-rtdb.europe-west1.firebasedatabase.app',
-  projectId: "stube-2d651",
-  storageBucket: "stube-2d651.appspot.com",
-  messagingSenderId: "40376188203",
-  appId: "1:40376188203:web:808d89da57f2e2fc6b596e"
-};
+  apiKey: "AIzaSyAoCTgR8REfAwb_5i_CfLTr_4h5S-Z5jqo",
+  authDomain: "divelog-796c6.firebaseapp.com",
+  projectId: "divelog-796c6",
+  databaseURL: 'https://divelog-796c6-default-rtdb.europe-west1.firebasedatabase.app/',
+  storageBucket: "divelog-796c6.appspot.com",
+  messagingSenderId: "427718904435",
+  appId: "1:427718904435:web:3ccd0b3781574da72ef806"
+};      
 
 @NgModule({
   declarations: [
